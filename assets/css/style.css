@@ -1,3 +1,50 @@
-body{
-    background-color: aqua;
+body {
+    background-image: url("../img/fondo.bmp");
+    font-family: "Roboto", sans-serif;
+  }
+  .containerImg {
+    margin-top: 5em;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+  }
+  button{
+    display: flex;
+    margin-top: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5em 3em;
+  }
+  .containerboton{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  button:hover {
+    background-color: rgb(1, 112, 93);
+    cursor: pointer;
+  }
+  #textoResultado {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+#resultado{
+
+        display: inline-block;
+        margin-left: 10px;
+    
 }

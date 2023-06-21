@@ -6,3 +6,4 @@ function borde() {
       image.style.border = "2px solid red";
     }
   }
+  

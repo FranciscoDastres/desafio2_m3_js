@@ -6,15 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ejercicio 2</title>
+    <script  src="assets/js/script2.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <div class="container">
-        <img src="assets/img/1 gato.jpg" alt="gatostk">
+        <img src="assets/img/1 gato.png" alt="gatostk">
         <img src="assets/img/2 perro.png" alt="perrostk">
-        <img src="assets/img/3 raton.jpg" alt="ratonstk">
+        <img src="assets/img/3 raton.png" alt="ratonstk">
+    </div>
+    <div class="container">
+        <input type="text" name="Gato" id="sticker1" placeholder="ingrese cantidad">
+        <input type="text" name="perro" id="sticker2" placeholder="ingrese cantidad">
+        <input type="text" name="raton" id="sticker3" placeholder="ingrese cantidad">
+
     </div>
 
+    <p id="textoResultado"></p>
+    <div class="containerboton">
+        <button class="verificar" type="button" onclick="verificar()">Verificar</button>
+    </div>
 </body>
 
 </html>
